@@ -21,7 +21,7 @@ return [...kittens, name];
 }
 
 function prependKitten(name) {
- return kittens.slice(0, kittens.length - 1);
+ return kittens.slice(0, kittens.length + 1);
 }
 
 // Add your functions and code here
