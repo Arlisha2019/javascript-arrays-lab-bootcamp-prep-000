@@ -8,9 +8,8 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name);
 }
 
-function destructivelyRemoveLastKitten(3) {
- kittens.slice(3);
- kittens;
+function destructivelyRemoveLastKitten() {
+ kittens.pop();
 }
 
 // Add your functions and code here
